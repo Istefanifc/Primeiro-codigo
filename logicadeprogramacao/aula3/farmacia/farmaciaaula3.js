@@ -6,7 +6,7 @@ formulario.addEventListener("submit", (e) => {
     const valordaunidade = formulario.valordaunidade.value
     const porcentagemdodesconto = formulario.porcentagemdodesconto.value
 
-    const totalpagar = (valordaunidade * porcentagemdodesconto) / 100
+    const totalpagar = (valordaunidade * porcentagemdodesconto) / 100 - valordaunidade
     desconto.innerText = `R$ ${totalpagar}`
 
 
