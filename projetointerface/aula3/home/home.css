@@ -1,0 +1,149 @@
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+
+  body {
+    margin: 0%;
+  }
+
+  #cabecario {
+    background-color: rgb(255, 255, 255);
+    height: 78px;
+    width: 100%;
+  }
+
+  .paginabotao {
+    border-radius: 50px;
+    background-color: white;
+    color: rgb(59, 52, 246);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border: #ffffff;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0px;
+  }
+
+  .div_com_imagem {
+    background-image: url(../imagem/Untitled-2.jpg);
+    height: 400px;
+    width: 100%;
+
+  }
+
+  .imagem_relativa {
+    width: 90%;
+    height: 400px;
+    background-color: #f5f7fa;
+    top: -250px;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+  }
+
+  .foto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+
+  .rede {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .div_em_branco_btn {
+    height: 150px;
+    width: 99, 9%;
+    background-color: rgb(255, 255, 255);
+    border-width: medium;
+    border-style: solid;
+    border-color: #ea81819b;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 15px;
+
+  }
+
+  .button_instagram {
+    border-radius: 50px;
+    background-color: #ea81819b;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    width: 130px;
+    height: 50px;
+    border: #ea81819b;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+
+  }
+
+  .linkedin {
+    border-radius: 50px;
+    background-color: #ea81819b;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    width: 130px;
+    height: 50px;
+    border: #ea81819b;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+  }
+
+  .div_em_cinza {
+    background-color: #f5f7fa;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+  }
+
+  footer {
+    background-color: rgba(212, 87, 118, 0.788);
+    color: white;
+    height: 80px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 100px;
+  }
+
+  p {
+    text-align: center;
+    font: size 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
