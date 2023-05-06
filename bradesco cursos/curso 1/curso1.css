@@ -1,0 +1,29 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+li {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.li {
+    list-style: square;
+    color: aliceblue;
+}
+
+#msg {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.light {
+    color: aliceblue;
+    background-color: rgb(10, 94, 228);
+}
