@@ -1,0 +1,27 @@
+body {
+    background: rgb(208, 110, 185);
+    font-family: 'Courier New', Courier, monospace 20pt normal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px; /*BORDA*/
+    padding: 15px; 
+    width: 500px; /*LARGURA*/
+    margin: auto; /*CENTRALIZAR*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349); /* Sombra*/
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
